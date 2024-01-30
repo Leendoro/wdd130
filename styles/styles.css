@@ -1,8 +1,24 @@
+    /* * {
+        border: 2px solid black;
+
+    }
+     */
     body {
-        background-color: rgb(216, 128, 20);
+        padding: 0;
+        margin: 0;
+        background-color: rgb(239, 229, 217);
     }
 
-    
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+   nav {
+    display: flex;
+    justify-content: center;
+   } 
 
     .nav_link {
         padding: 10px;
@@ -11,10 +27,27 @@
     }
 
     img {
-        width: 300px;
+        width: 60%;
+        display: block;
+        margin: 0 auto;
 
     }
+    a { color: black;
+    }
+
+    a:hover {color: green;
+            background-color: beige;
+        }
 
     #main_title {
         font-size: 4em;
+        text-align: center;
+    }
+
+    p { 
+        text-align: center;
+    }
+    footer {
+        background-color: rgb(61, 81, 61);
+        padding: 20px;
     }
