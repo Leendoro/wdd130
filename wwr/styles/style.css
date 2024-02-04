@@ -1,3 +1,12 @@
+div {
+    height: 1600px;
+}
+
+
+
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,7 +29,13 @@ main section {
     text-align: center;
 }
 
-
+.icon {
+    width: 80px;
+}
+                
+.logo {
+    width: 80px;
+}
 #background {
     height: 725px;
 
@@ -78,7 +93,3 @@ footer p a:hover {
          
 
 
-.icon {
-    width: 80px;
-}
-                
