@@ -3,9 +3,9 @@
 
 
 
-div {
+/* div {
     height: 1600px;
-}
+} */
 
 
 .home-title   {
@@ -211,6 +211,86 @@ nav a:hover {
     color: #d9c2a3;
     margin: 0;
 }
+
+
+
+#tittle {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#salmon {
+
+display: grid;
+grid-template-columns: 2fr 1fr;
+
+}
+
+
+#salmon div img { 
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#grand img{
+    max-height: 500px; 
+}
+
+.rivers-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#desolation, #grand, .raft-pics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+#desolation img{
+    max-height: 800px;
+}
+
+#desolation p{
+    width: 50%
+
+}
+#grand {
+    flex-direction: row-reverse;
+
+}
+#grand p{
+    width: 50%
+}
+
+#grand img{
+    max-height: 800px;
+}
+
+.raft-pics {
+    justify-content: space-between;
+}
+
+
+
+
 footer {
 
     
