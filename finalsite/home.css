@@ -8,6 +8,7 @@
 
 h1 {
     text-align: center;
+    background-color: green;
 }
 
 image {
@@ -52,26 +53,33 @@ image {
     padding: 4em;
     font-size: 16px;
     text-align: center;
+    background-color: #6D6875;
   }
-  img {
-    display: 100px;
-    margin: 0 auto;   
+
+
+  .image-cont {
+    display: flex;
+    justify-content: space-between;
+
   }
-  h1, h2, h3, h4, h5, h6 {
+  /* h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
-  }
+  } */
 
-
-  h2{}
+  
+  
+  
+  /* h2{} */
 
   .button {
-    background-color: #04AA6D; /* Green */
-    border: none;
+    background-color:#B5838D;
+    border-radius: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom: 20px;
   }
