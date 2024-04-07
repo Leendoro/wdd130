@@ -21,5 +21,43 @@ body {
   image {
     display: 100px;
     margin: 0 auto;
+    
 
   }
+  .logo{
+    width: 400px;
+  }
+  .trash-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+
+  .brain-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .mech-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .mechy {
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+  }
+
+  .diesle-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .deisley{
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+
+  }
+  
