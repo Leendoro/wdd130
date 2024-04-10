@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <a class="button" href="index.html"> Home </a>
     <style>
         /* Basic styling for the form */
         body {
@@ -20,20 +21,34 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color:  #FFB4A2 ;
             color: white;
             padding: 10px 20px;
             border: none;
             cursor: pointer;
         }
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color:  #FFB4A2 ;
         }
+        .button {
+    background-color:#B5838D;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
     </style>
 </head>
 <body>
 
-    <h2>Contact Us</h2>
+    <h2>Contact Me</h2>
+    <p>Email me to inquire about joing me in developing Deadworld!
+    </p>
+    <p>share your ideas, skills, and what you think you can bring to the game!</p>
     <form action="submit.php" method="post">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>

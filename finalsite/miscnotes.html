@@ -5,49 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Other Notes</title>
     <!-- css link -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="msc.css">
     <!-- You can add any other meta tags, scripts, or stylesheets here -->
-    <nav>
-        <a href="index.html"> Home </a> 
-    </nav>
+
 </head>
 <body>
 
     <header>
-        <!-- Header content goes here -->
-        <h1>MISC INFO</h1>
+        <img class="logo" src="images/Deadworld-logos_black.png" alt="">
+        <nav class="bar">
+            <a class="button" href="index.html"> Home </a>
+            <a class="button" href="page1.html">Protagonists</a> 
+            <a class="button" href="vilanspage.html">Villans</a>
+        </nav>
     </header>
 
-    <nav>
-        <!-- Navigation content goes here -->
-        <ul>
-            <li><a href="page1.html">Main Characters</a></li>
-            <li><a href="vilanspage.html">Vilians and others</a></li>
-            <li><a href="index.html">Services</a></li>
-            <li><a href="contactus.html">Contact</a></li>
-        </ul>
-    </nav>
+    <h1>MISC INFO</h1>
+    
 
+    <h2>More Ideas</h2>
+<p>Click on the buttons inside the tabbed menu to view each topic:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Battles</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Enemies</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">NPCs</button>
+    <button class="tablinks" onclick="openCity(event, 'Denmark')">Horror</button>
+  <button class="tablinks" onclick="openCity(event, 'China')">Character doodles</button>
+
+</div>
+
+
+<div id="London" class="tabcontent">
+    <img src="images/battle_ui_ideas.webp" alt="">
+    <h2>Battles</h3>
+    <p>Thinking and designing a battle interface was a bit of a challange for me,
+    i was kinda inspired by old games i used to playlike Golden sun and Earthbound
+
+    i was thinking somthing similar to those, however this is still subject to change
+  </p>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <img src="images/enemie_design.webp" alt="">
+    <h3>Baddies</h3>
+  <p>PHere where some ideas of standard enemy for the starting area,
+    i was going for a grundgy sorta dirty urban design for some of these guys
+  </p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <img src="images/npc_ideas.webp" alt="">
+    <h3>Non Playable Characters</h3>
+  <p>every RPG has to have a wide range of people to talk too! designing NPCs was really fun for me
+    these are only some ideas i had for the first area, so theres bound to me more, 
+    the issue is having to actually translate these into sprites when that stage of development comes along
+  </p>
+</div>
+
+<div id="Denmark" class="tabcontent">
+    <img src="images/scary_enemies.webp" alt="">
+    <h3>Scary Enemies</h3>
+    <p>Deadworld was built in mind with horror, i was pretty facinated how i could make a game scary but also funny at the same times
+        when designing the characters, enemies, and story, i felt like everything has been already done before,
+        so how could i make my idea unique?
+
+        Horror games have been on the uprise and i myself found a weird facination with the frighting aspects of media, it felt kinda interesting
+        with these seemingly cutesy characters contrast with frighting designs
+    </p>
+  </div>
+
+  <div id="China" class="tabcontent">
+      <img src="images/more_ideas.webp" alt="">
+      <img src="images/movemebt.webp" alt="">
+      <h3>More ideas</h3>
+    <p>Heres just some ideas i had for some characters, how characters move, act, personality, just some ideas
+    </p>
+  </div>
+  
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
     <main>
         <!-- Main content goes here -->
         <section>
             <!-- Section content goes here -->
-            <h2>Section 1</h2>
-            <p>Heres some notes.</p>
+            <h2>Actually Programing</h2>
+            <p>Im no expert in computers, im really just a novice in these things
+                a lot of my inspirations come from the greats before me.
+                indie game developers like Toby Fox from undertale and Daiskue Amaya who made Cave Story by himself
+                those too where novice developers whos creations and storys touched the hearts of thousands,
+                i hope that my ideas can be like theres
+            </p>
+            <img src="images/stopid.webp" alt="">
         </section>
         <section>
             <!-- Section content goes here -->
-            <h2>Section 2</h2>
-            <p>This is section 2.</p>
+            <h2>Teams</h2>
+            <p>Ive had some friends express intrest in helping me out, though im in college right now and i dont expect to go into game
+                development full time, ive commited myself to this as my passion project, i dont think Deadworld will come out anythime soon
+                its still just in the planning stage at the moment, but given enough time i belive ill be able to make somthing my childhood self would have gone crazy over!
+
+                If your interested we can even collaberate! just contact me here
+
+            </p>
+            <div><a class="button"  href="contactus.html">Contact</a></div>
         </section>
     </main>
 
-    <footer>
-        <!-- Footer content goes here -->
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
-    </footer>
-
-   
 
 </body>
+<footer>
+    <!-- Footer content goes here -->
+
+    <h4> copyright 2024 - jacob lc </h4>
+        <div class="footimg"> <img src="images/footer.webp" alt=""></div>
+
+</footer>
+
+
+
 </html>

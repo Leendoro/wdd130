@@ -8,7 +8,7 @@
 
 h1 {
     text-align: center;
-    background-color: green;
+    background-color: #FFCDB2;
 }
 
 image {
@@ -59,7 +59,8 @@ image {
 
   .image-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #E5989B;
 
   }
   /* h1, h2, h3, h4, h5, h6 {
@@ -82,4 +83,15 @@ image {
     display: inline-block;
     font-size: 16px;
     margin-bottom: 20px;
+  }
+  .logo{
+    width: 400px;
+  }
+  footer{
+    
+    border-top: 75px solid #FFCDB2;
+    padding: 140px;
+    margin: 30px;
+
+
   }

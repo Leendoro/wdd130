@@ -4,7 +4,7 @@ body {
     padding: 4em;
     font-size: 16px;
     text-align: center;
-    background-color: #B5838D;
+    background-color:  #FFB4A2 ;
   }
 
   .button {
@@ -32,11 +32,21 @@ body {
     padding-bottom: 200px;
     align-items: center;
   }
+  .trashy {
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+  }
 
   .brain-flex{
     display: flex;
     padding-bottom: 200px;
     align-items: center;
+  }
+  .brainy {
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
   }
   .mech-flex{
     display: flex;
@@ -60,4 +70,48 @@ body {
     padding: 32px;
 
   }
+  .clown-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .clowny{
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+  }
+
+  .tissue-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .tisuey{
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+  }
+
   
+  .lance-flex{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+  }
+  .lancy{
+    background-color: #FFCDB2;
+    margin: 30px;
+    padding: 32px;
+  }
+
+ h6{
+    text-emphasis-style: bold;
+ }
+  footer{
+    
+    border-top: 75px solid #FFCDB2;
+    padding: 140px;
+    margin: 30px;
+
+
+  }

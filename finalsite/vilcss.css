@@ -21,11 +21,17 @@ body {
   image {
     display: 100px;
     margin: 0 auto;
-    
+
 
   }
   .logo{
     width: 400px;
+  }
+
+  .extra{
+    padding: 30px;
+    margin: 30px;
+
   }
 
   .war-flex{
@@ -58,4 +64,12 @@ body {
     background-color: #FFCDB2;
     margin: 30px;
     padding: 32px;
+  }
+  footer{
+    
+    border-top: 75px solid #FFCDB2;
+    padding: 140px;
+    margin: 30px;
+
+
   }
